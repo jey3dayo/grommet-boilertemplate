@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 const Template = props => (
   <div>
-    <Helmet defaultTitle="jey3dayo.net" />
+    <Helmet defaultTitle="grommet boilertemplate" />
     {props.children}
   </div>
 );

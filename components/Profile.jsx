@@ -16,7 +16,6 @@ const profile = `{
   "name": "Junya Nakazato",
   "job": "Front-End and Back-End Web Developer",
   "live": "Okinawa, Japan",
-  "love": [ "League of Legends", "GUILTY GEAR XX ΛCORE" ],
   "frontend": [ "JavaScript", "React", "Material-UI", "Grommet", "jQuery" ],
   "backend": [ "Node.js", "Ruby", "Java", "PHP", "Objective-C", "Rails",
     "Spring Framework", "FuelPHP" ],
@@ -28,7 +27,7 @@ const profile = `{
 const contents = () => (
   <content>
     <Header fixed={false} float={false} splash={false} pad="small">
-      <Heading>jey3dayo.net</Heading>
+      <Heading>Profile</Heading>
     </Header>
 
     <Hero background={<Image src={backgroundImage} fit="cover" full />} size="large">
@@ -47,7 +46,7 @@ const contents = () => (
     </Hero>
 
     <Footer justify="between" pad="small">
-      <Paragraph margin="none">© 2017 jey3dayo.net</Paragraph>
+      <Paragraph margin="none">© 2017 example.com</Paragraph>
     </Footer>
   </content>
 );
